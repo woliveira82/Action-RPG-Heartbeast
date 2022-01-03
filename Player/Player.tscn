@@ -839,7 +839,6 @@ hframes = 60
 frame = 1
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-visible = false
 rotation = -1.5708
 shape = SubResource( 1 )
 
@@ -889,7 +888,6 @@ script = ExtResource( 4 )
 shape = SubResource( 36 )
 
 [node name="Hurtbox" parent="." instance=ExtResource( 5 )]
-visible = false
 collision_layer = 4
 
 [node name="CollisionShape2D" parent="Hurtbox" index="0"]
